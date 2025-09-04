@@ -106,3 +106,39 @@ pip install requests speechrecognition pyaudio
 1. Run `voice_control.py`.
 2. Speak a command: `forward`, `backward`, `left`, `right`, `stop`.
 3. Robot responds in real-time.
+
+## Demo
+
+![Robot Moving](Demo_Videos/robot_demo.gif)
+*Autonomous movement along a pre-defined route.*
+
+[Watch Full Demo Video](Demo_Videos/demo.mp4)
+
+## Future Improvements
+- Integrate camera-based navigation using OpenCV.
+- Add weight sensors for adaptive speed with heavy loads.
+- Multi-robot coordination for warehouse automation.
+- Develop a mobile app for easier control and monitoring.
+
+## Repository Structure
+Smart-Navigation-Transportation-Robot/
+│
+├── ESP_Robot_Motion/ # NodeMCU motion control code
+│ └── main_motion.ino
+├── ESP_Robot_Crane/ # NodeMCU crane control code
+│ └── crane_control.ino
+├── Voice_Command_Control/ # Python voice control script
+│ ├── voice_control.py
+│ └── requirements.txt
+├── Hardware_Images/ # Photos of the robot
+├── Demo_Videos/ # Demo video/GIF
+├── Docs/ # Circuit diagram, schematics
+└── README.md # This file
+
+## License
+MIT License © 2025 Akshansh Khairwar
+
+## Contact
+- Email: [akshanshkhairwar@gmail.com](mailto:akshanshkhairwar@gmail.com)
+- LinkedIn: [www.linkedin.com/in/akshanshkhaiwar](https://www.linkedin.com/in/akshanshkhaiwar)
+- GitHub: [Akshansh-29072005](https://github.com/Akshansh-29072005)
