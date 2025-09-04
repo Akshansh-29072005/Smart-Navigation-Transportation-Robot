@@ -88,7 +88,7 @@ Key capabilities include:
 - Install dependencies:  
 ```bash
 pip install requests speechrecognition pyaudio
-
+```
 - Ensure your computer and NodeMCU are on the **same Wi-Fi network**.
 - You can test the **web interface first** to see if motors respond.
 - Once verified, use the **Python voice control**.
@@ -142,3 +142,4 @@ MIT License © 2025 Akshansh Khairwar
 - Email: [akshanshkhairwar@gmail.com](mailto:akshanshkhairwar@gmail.com)
 - LinkedIn: [www.linkedin.com/in/akshanshkhaiwar](https://www.linkedin.com/in/akshanshkhaiwar)
 - GitHub: [Akshansh-29072005](https://github.com/Akshansh-29072005)
+```
